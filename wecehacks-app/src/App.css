@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,128 @@
   to {
     transform: rotate(360deg);
   }
+} */
+* {
+  box-sizing: border-box;
+}
+
+/* Header/Logo Title */
+.header {
+  padding: 2px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+  background: #16a88b;
+  color: white;
+}
+
+/* Create two unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+.left {
+  padding-left: 35px;
+  width: 70%;
+}
+
+.right {
+  width: 30%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.intro {
+  padding-right: 30%;
+  font-family: "Open Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  padding-bottom: 40px;
+}
+
+#fname {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+input[type="text"],
+select {
+  width: 600px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid #8a8786;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.foodItem {
+  background: #fafafa 0% 0% no-repeat padding-box;
+  border: 4px #e6e6e6;
+  border-radius: 4px;
+  opacity: 1;
+  width: 500px;
+  height: 500px;
+}
+
+.foodItem img {
+  width: 350px;
+  height: 350px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.button {
+  margin-left: 50%;
+  display: inline-block;
+  width: 200px;
+  height: 40px;
+  border: 1px solid #f3863dfa;
+  border-radius: 20px;
+  background-color: #f3863dfa;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.button:hover {
+  background: #ff9e5dfa 0% 0% no-repeat padding-box;
+  box-shadow: 1px 4px 10px #00000019;
+  border: 1px solid #ff9e5dfa;
+  border-radius: 20px;
+  opacity: 1;
+}
+
+.button2 {
+  margin-top: 150px;
+  display: inline-block;
+  width: 300px;
+  height: 60px;
+  border: 1px solid #237061fa;
+  border-radius: 20px;
+  background-color: #2c8d7afa;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.button2:hover {
+  background: #237061fa 0% 0% no-repeat padding-box;
+  box-shadow: 1px 4px 10px #00000019;
+  border: 1px solid #237061fa;
+  border-radius: 20px;
+  opacity: 1;
 }
